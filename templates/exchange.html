@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <table>
+            {%for i in ex: %}
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>이름</th>
+                    <th>환율</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><il></il></td>
+                    <td><il>{{ i['country'] }}</il></td>
+                    <td><il>{{ i['basePrice']}}</il></td>
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+    </body>
+</html>
